@@ -1,0 +1,22 @@
+{
+  "name": "playwrightnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:bdd": "npx cucumber-js",
+    "test:bdd:headed": "npx cucumber-js --require-module @babel/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "playwright": "^1.60.0"
+  }
+}
